@@ -41,7 +41,7 @@ public static void main(String[] args) {
     boolean adult = true;
     if (yr < 5) {
         System.out.println(" Если возраст ребенка равен " + yr + " , то  ему нельзя кататься на аттракционе .");
-    } else if (yr > 5 && yr < 14) {
+    } else if (yr >= 5 && yr <= 14) {
         if (adult) {
             System.out.println(" Если возраст ребенка равен " + yr + " , то ему можно кататься на аттракционе в сопровождении взрослого. ");
         } else {
@@ -49,9 +49,9 @@ public static void main(String[] args) {
         }
         // Задача 6;
         int seat = 80;
-        if (seat < 60)
+        if (seat < 60) {
             System.out.println(" В вагоне есть сидячие и стоячие места");
-        else if (seat > 60 && seat < 102) {
+        }else if (seat > 60 && seat < 102) {
             System.out.println("В вагоне есть стоячие места");
         } else {
             System.out.println(" В вагоне нет мест");
