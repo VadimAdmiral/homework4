@@ -1,3 +1,4 @@
+public class Main{
 public static void main(String[] args) {
     //Задача 1 ;
     int age = 16;
@@ -41,7 +42,7 @@ public static void main(String[] args) {
     boolean adult = true;
     if (yr < 5) {
         System.out.println(" Если возраст ребенка равен " + yr + " , то  ему нельзя кататься на аттракционе .");
-    } else if (yr >= 5 && yr <= 14) {
+    } else if (yr >= 5 && yr <= 14)
         if (adult) {
             System.out.println(" Если возраст ребенка равен " + yr + " , то ему можно кататься на аттракционе в сопровождении взрослого. ");
         } else {
